@@ -5,7 +5,7 @@ from model import Model
 app = Flask(__name__)
 
 
-# Method 1: Via HTML Form
+
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
